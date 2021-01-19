@@ -194,7 +194,7 @@ header {
 .headerData h1 {
     font-family: 'Muli-bold';
     font-weight: bold;
-    font-size: 56px;
+    font-size: 53px;
     text-transform: capitalize;
     margin-bottom: 25px;
 }
@@ -311,6 +311,10 @@ header {
 @media (min-width:1700px) {
     .vectors img {
         max-width: 100%;
+    }
+
+    .headerData h1 {
+        font-size: 66px;
     }
 }
 
