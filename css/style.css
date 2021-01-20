@@ -1185,7 +1185,8 @@ footer .social a {
 }
 
 @media (min-width: 1800px) {
-    .container {
+    .container-fluid {
         max-width: 1600px;
+        margin: auto;
     }
 }
