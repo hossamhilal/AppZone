@@ -182,9 +182,8 @@ header {
 }
 
 .social a:hover {
-    color: var(--mainColor);
-    background: var(--white);
-    transform: translateY(-5px);
+    color: var(--white);
+    background: var(--mainColorDrak);
 }
 
 .headerData .row {
@@ -531,30 +530,35 @@ header {
 .portfolioBox h5 {
     color: var(--secondaryColor);
     cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
     transition: all .6s ease-in-out;
 }
 
 .portfolioBox h3 {
     font-size: 25px;
     margin-bottom: 15px;
-    transform: translateY(-40px);
+    transform: translateY(40px);
 }
 
 .portfolioBox h5 {
     font-size: 15px;
     margin: 0;
     transform: translateY(40px);
+    transition-delay: .3s;
     text-transform: uppercase;
 }
 
 .portfolioBox h3:hover,
 .portfolioBox h5:hover {
-    color: var(--mainColor);
+    color: var(--mainColor);   
 }
 
 .portfolioBox:hover h3,
 .portfolioBox:hover h5 {
     transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
 }
 
 @media screen and (max-width:768px) {
